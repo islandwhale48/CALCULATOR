@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate!</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="calc">
+        <div class="display">
+            <div id="operands-operator" class="display1"></div>
+            <div id="equalTo" class="display1"></div>
+        </div>
+
+
+
+        <table>
+            <tr class="r1">
+                <td id="ac" colspan="2"><button id="ac" value="AC" ">AC</button></td>
+                <td><button value=" del">Delete</button></td>
+                <td><button value="*">*</button></td>
+            </tr>
+            <tr class="r2">
+                <td><button id="b1" value="1">1</button></td>
+                <td><button value="2">2</button></td>
+                <td><button value="3">3</button></td>
+                <td><button value="/">/</button></td>
+            </tr>
+            <tr class="r3">
+                <td><button value="4">4</button></td>
+                <td><button value="5">5</button></td>
+                <td><button value="6">6</button></td>
+                <td><button value="-">-</button></td>
+            </tr>
+            <tr class="r4">
+                <td><button value="7">7</button></td>
+                <td><button value="8">8</button></td>
+                <td><button value="9">9</button></td>
+                <td><button value="+">+</button></td>
+            </tr>
+            <tr class="r5">
+                <td><button value=".">.</button></td>
+                <td><button value="0">0</button></td>
+                <td colspan="2" id="equal"><button value="=">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
